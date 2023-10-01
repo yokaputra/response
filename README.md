@@ -35,6 +35,21 @@ err := errors.NewError(errors.ErrorCodeNotFound, "Data not found")
 errorResponse := NewErrorResponse(err)
 ```
 
+Here's an example of how to use this project with gin-gonic:
+
+```go
+// Generating a success response with default status code 200
+response.GinSuccessResponse(c, "Operation successful", user)
+
+// Generating a success response with custom status code 201
+response.GinSuccessResponse(c, "Operation successful", user, http.StatusCreated)
+
+// Generating an error response
+err := errors.NewError(errors.ErrorCodeNotFound, "Data not found")
+response.GinErrorResponse(c, err)
+
+```
+
 ## Contribution
 
 ---
