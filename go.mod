@@ -1,4 +1,4 @@
-module response
+module github.com/yokaputra/response
 
 go 1.21.1
 

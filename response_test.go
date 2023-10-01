@@ -3,8 +3,9 @@ package response
 import (
 	"net/http"
 	"reflect"
-	"response/errors"
 	"testing"
+
+	"github.com/yokaputra/response/errors"
 
 	"github.com/stretchr/testify/assert"
 )

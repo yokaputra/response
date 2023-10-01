@@ -1,7 +1,7 @@
 package response
 
 import (
-	"response/errors"
+	"github.com/yokaputra/response/errors"
 
 	"github.com/gin-gonic/gin"
 )

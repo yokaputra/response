@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"response/errors"
+	"github.com/yokaputra/response/errors"
 )
 
 type BaseResponse struct {
